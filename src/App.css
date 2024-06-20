@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxes-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+}
+img{
+  width: 100%;
+}
+#preview{
+  width: 50%;
+}
+#editor{
+  width: 50%;
+height:650px ;
+}
+.wrapper{
+  max-width: 1300px;
+  padding: 0px 10px;
+  margin: 0 auto;
+  height: 100vh;
+}
+h1{
+  text-align: center;
+}
